@@ -1,7 +1,7 @@
 import requests
 
-bot_token = "IL_TUO_TOKEN"
-chat_id = "IL_TUO_CHAT_ID"
+bot_token = "8714326027:AAFRvuD6kbYVodrvCEYGNo16BucX6IGvDsk"
+chat_id = "589238451"
 
 message = "🚀 Test riuscito: Anime Radar è attivo!"
 
