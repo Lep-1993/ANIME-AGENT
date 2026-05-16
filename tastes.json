@@ -1,0 +1,48 @@
+{
+  "preferences": {
+    "cyberpunk": 5,
+    "mecha": 5,
+    "sci-fi": 5,
+    "psychological": 4,
+    "thriller": 4,
+    "mystery": 4,
+    "detective": 3,
+    "military": 5,
+    "political": 4,
+    "action": 4,
+    "fantasy": 4,
+    "isekai": 3,
+    "historical": 4,
+    "shonen": 3
+  },
+
+  "negative_preferences": {
+    "slow_burn": -3,
+    "pure_slice_of_life": -2,
+    "pure_detective": -2
+  },
+
+  "reference_titles": {
+    "high_priority_similarity": [
+      "Psycho-Pass",
+      "Steins;Gate",
+      "Cyberpunk: Edgerunners",
+      "Code Geass: Lelouch of the Rebellion",
+      "Mobile Suit Gundam: Iron-Blooded Orphans",
+      "Fullmetal Alchemist: Brotherhood",
+      "Re:Zero - Starting Life in Another World",
+      "Erased",
+      "86"
+    ],
+
+    "low_priority_similarity": [
+      "Monster"
+    ]
+  },
+
+  "rules": {
+    "min_score_to_notify": 7,
+    "boost_if_similar_to_reference": 2,
+    "penalize_if_tags_match_negative": 2
+  }
+}
