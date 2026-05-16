@@ -105,8 +105,8 @@ def build_report(anime_list):
 # =========================
 
 def send_to_telegram(message):
-    bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    bot_token = os.getenv("8714326027:AAFRvuD6kbYVodrvCEYGNo16BucX6IGvDsk")
+    chat_id = os.getenv("589238451")
 
     if not bot_token or not chat_id:
         print("⚠️ Telegram credentials missing. Printing report instead:\n")
