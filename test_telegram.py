@@ -1,17 +1,18 @@
 import requests
 
-bot_token = "8714326027:AAFRvuD6kbYVodrvCEYGNo16BucX6IGvDsk"
-chat_id = "589238451"
+bot_token = "INCOLLA_QUI_TOKEN_ESATTO"
+chat_id = "INCOLLA_QUI_CHAT_ID"
 
-message = "🚀 Test riuscito: Anime Radar è attivo!"
+print("TOKEN OK:", bot_token[:10])
 
 url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
 
 payload = {
     "chat_id": chat_id,
-    "text": message
+    "text": "🚀 Test riuscito"
 }
 
-response = requests.post(url, json=payload)
+r = requests.post(url, json=payload)
 
-print(response.json())
+print(r.status_code)
+print(r.text)
