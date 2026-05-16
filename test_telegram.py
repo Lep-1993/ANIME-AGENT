@@ -2,7 +2,7 @@ import os
 import requests
 
 bot_token = os.getenv("8714326027:AAFRvuD6kbYVodrvCEYGNo16BucX6IGvDsk")
-chat_id = os.getenv("TELEGRAM_CHAT_ID")
+chat_id = os.getenv("589238451")
 
 message = "🚀 Test riuscito: Anime Radar è attivo!"
 
